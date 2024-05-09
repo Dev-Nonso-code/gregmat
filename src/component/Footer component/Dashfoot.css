@@ -1,0 +1,38 @@
+#main{
+    justify-content: space-around;
+    padding-top: 3rem;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#you{
+    /* display: inline-block; */
+    display: -moz-grid-line;
+}
+#you a{
+    text-decoration: none;
+    color: black;
+    margin-top: 1em;
+}
+#main p{
+    padding: 6px;
+}
+#main p:hover{
+    cursor: pointer;
+    background-color: burlywood;
+    text-transform: uppercase;
+    text-decoration-style: solid;
+}
+#hr{
+    /* max-width: 50em; */
+    /* margin-left: 4em; */
+    text-align: center;
+}
+h4{
+    margin-left: 3em;
+}
+@media screen and (min-width: 680px){
+#main{
+    /* display: block; */
+    display: inline-block;
+}
+}
