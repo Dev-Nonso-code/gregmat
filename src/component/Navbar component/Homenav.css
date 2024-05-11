@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0%;
     padding: 0%;
@@ -23,4 +24,31 @@ Link{
 }
 Link:hover{
     text-decoration: wavy;
+=======
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#show:hover + #cont{
+    display: block;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: solid;
+    text-transform: uppercase;
+}
+#disable{
+    color: darkblue;
+    text-decoration-line: none;
+    text-decoration-color: greenyellow;
+}
+Link{
+    text-decoration: none;
+}
+Link:hover{
+    text-decoration: wavy;
+>>>>>>> b3f96a0ef6476e5841931a470a6ee9d672ff2eac
 }

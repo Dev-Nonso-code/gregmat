@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #input{
     justify-self: unset;
     margin: auto;
@@ -8,4 +9,16 @@
     background-position:center;
     background-size: contain;
     background-repeat: repeat-x;
+=======
+#input{
+    justify-self: unset;
+    margin: auto;
+}
+#all{
+    height: 23em;
+    background-image: url(../Img\ component/mmt.jpg);
+    background-position:center;
+    background-size: contain;
+    background-repeat: repeat-x;
+>>>>>>> b3f96a0ef6476e5841931a470a6ee9d672ff2eac
 }

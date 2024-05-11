@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #alls{
     background-color: darkslategrey;
     transition-duration: all 0.58s ease-in-out;
@@ -7,4 +8,15 @@
     background-image: url(../Img\ component/mmt.jpg);
     transform: translate(3px, 2px);
     
+=======
+#alls{
+    background-color: darkslategrey;
+    transition-duration: all 0.58s ease-in-out;
+}
+#alls:hover{
+    transition: all 0.9s ease-in-out;
+    background-image: url(../Img\ component/mmt.jpg);
+    transform: translate(3px, 2px);
+    
+>>>>>>> b3f96a0ef6476e5841931a470a6ee9d672ff2eac
 }
