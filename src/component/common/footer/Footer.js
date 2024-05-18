@@ -2,6 +2,7 @@ import React from "react"
 import { blog } from "../../../dummydata"
 import "./footer.css"
 
+
 const Footer = () => {
   return (
     <>

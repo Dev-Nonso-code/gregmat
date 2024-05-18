@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react"
 import Back from "../common/back/Back"
 import "./contact.css"
