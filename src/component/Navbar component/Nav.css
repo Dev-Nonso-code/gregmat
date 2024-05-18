@@ -1,16 +1,7 @@
-<<<<<<< HEAD
 .fs-3{
     text-decoration: none;
 }
 .fs-3:hover{
     text-decoration: underline;
     text-transform: lowercase;
-=======
-.fs-3{
-    text-decoration: none;
-}
-.fs-3:hover{
-    text-decoration: underline;
-    text-transform: lowercase;
->>>>>>> b3f96a0ef6476e5841931a470a6ee9d672ff2eac
 }

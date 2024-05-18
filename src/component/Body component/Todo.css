@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #bodyz{
     background-color: yellowgreen;
     max-width: fit-content;
@@ -19,26 +18,4 @@
     background-color: black;
     color: aliceblue;
     border-radius: 10px;
-=======
-#bodyz{
-    background-color: yellowgreen;
-    max-width: fit-content;
-    overflow-y: visible;
-    margin: auto;
-}
-#bodz img{
-    width: 9em;
-    height: 7em;
-}
-#bodz h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: brown;
-}
-#bodz p{
-    width: 4em;
-    height: 4em;
-    background-color: black;
-    color: aliceblue;
-    border-radius: 10px;
->>>>>>> b3f96a0ef6476e5841931a470a6ee9d672ff2eac
 }

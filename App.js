@@ -104,7 +104,7 @@ const App = () => {
         <Route path='/' element={<First />} />
         {/* <Route path='/Increase' element={} /> */}
         <Route path='/Home' element={<Navigate to="/" />} />
-        <Route path='/DashBord' element={<Start />} />
+        <Route path='/DashBord' element={<Fecth />} />
         <Route path='/Dash' element={<Post />} />
         <Route path='/Login' element={<Signin />} />
         <Route path='/users' element={<Alluser />} />

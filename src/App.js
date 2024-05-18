@@ -106,12 +106,12 @@ const App = () => {
         <Route path='/Home' element={<Navigate to="/" />} />
         <Route path='/DashBord' element={<Start />} />
         <Route path='/Dash' element={<Post />} />
-        <Route path='/Login' element={<Signin />} />
+        <Route path='/student/Login' element={<Signin />} />
         <Route path='/users' element={<Alluser />} />
         <Route path='/class' element={<Class title="nonso" />} />
         <Route path='/About' element={<Something />} />
         <Route path='/Dashboard' element={token ? <Fecth className='btn btn-info' />
-          : <Navigate to="/Login" />} />
+          : <Navigate to="/student/Login" />} />
         <Route path='/Bob' element={<Button />} />
         <Route path='/cloud' element={<Cloud />} />
         <Route path='/Boy' element={<Butotons />} />
@@ -126,7 +126,7 @@ const App = () => {
         <Route path='Delets' element={< Butotons name="Delet" color="btn btn-warning" sayHellos={sayHellos} />} />
         <Route path='Edtes' element={< Butotons name="Edite" color="btn btn-danger" sayHellos={sayHellos} />} />
         <Route path='More' element={< Butotons name="Infos" color="btn btn-primary" sayHellos={sayHelloss} />} />
-        <Route path='/Signup' element={<Formikform />} />
+        <Route path='/student/Signup' element={<Formikform />} />
         <Route path='/Time' element={<Time />} />
         <Route path='*' element={<Notfound />} />
       </Routes>

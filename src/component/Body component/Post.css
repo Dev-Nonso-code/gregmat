@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #contain{
     margin: auto;
     text-align: center;
@@ -11,18 +10,4 @@
     text-align: center;
     justify-content: center;
     /* margin: 0px 4em 0px 0px; */
-=======
-#contain{
-    margin: auto;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    height: 10em;
-    background-color: darksalmon;
-}
-#inputs{
-    text-align: center;
-    justify-content: center;
-    /* margin: 0px 4em 0px 0px; */
->>>>>>> b3f96a0ef6476e5841931a470a6ee9d672ff2eac
 }
