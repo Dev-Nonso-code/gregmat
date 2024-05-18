@@ -1,4 +1,4 @@
-import Start from './Start';
+// import Start from './Start';
 
 import Button from './Button';
 import Something from './Something';
@@ -104,14 +104,15 @@ const App = () => {
         <Route path='/' element={<First />} />
         {/* <Route path='/Increase' element={} /> */}
         <Route path='/Home' element={<Navigate to="/" />} />
-        <Route path='/DashBord' element={<Fecth />} />
+        {/* <Route path='/student/dashboard' element={<Fecth />} /> */}
+        <Route path='/student/dashboard' element={<Fecth />} />
         <Route path='/Dash' element={<Post />} />
         <Route path='/Login' element={<Signin />} />
         <Route path='/users' element={<Alluser />} />
         <Route path='/class' element={<Class title="nonso" />} />
         <Route path='/About' element={<Something />} />
-        <Route path='/Dashboard' element={token ? <Fecth className='btn btn-info' />
-          : <Navigate to="/Login" />} />
+        <Route path='/student/dashboard' element={token ? <Fecth className='btn btn-info' />
+          : <Navigate to="/student/Login" />} />
         <Route path='/Bob' element={<Button />} />
         <Route path='/cloud' element={<Cloud />} />
         <Route path='/Boy' element={<Butotons />} />
@@ -128,6 +129,7 @@ const App = () => {
         <Route path='More' element={< Butotons name="Infos" color="btn btn-primary" sayHellos={sayHelloss} />} />
         <Route path='/Signup' element={<Formikform />} />
         <Route path='/Time' element={<Time />} />
+        
         <Route path='*' element={<Notfound />} />
       </Routes>
 

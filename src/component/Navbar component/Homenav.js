@@ -116,7 +116,7 @@ const Homenav = () => {
                   Portal
                 </a>
                 <ul className="dropdown-menu" id="cont">
-                  <Link to="/login" id="disable">
+                  <Link to="/student/login" id="disable">
                     <li>
                       <a className="dropdown-item" href="##">
                         Student

@@ -10,10 +10,10 @@ import { useNavigate } from "react-router-dom"
 const Fecth = () => {
   const navigate = useNavigate()
   let token = localStorage.token
-  const firstname = localStorage.firstname
+  var firstname = localStorage.firstname
   const endpoint2 = "https://api.github.com/users"
   // const endpoint22 = "http://localhost:5100/log/signup"
-  const endpoint3 = "http://localhost:5100/log/dashboard"
+  const endpoint3 = "http://localhost:8080/student/verify"
   const [isloading, setisloasding] = useState(false)
 
   useEffect(() => {

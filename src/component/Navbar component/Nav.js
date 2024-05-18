@@ -18,7 +18,7 @@ export const Nav = () => {
         </div>
 
         <div>
-          <Link className='text-danger fw-bolder fs-3' to='/dashboard'>API DEV</Link>
+          <Link className='text-danger fw-bolder fs-3' to='/student/dashboard'>API DEV</Link>
         </div>
 
         <div>

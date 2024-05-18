@@ -28,6 +28,18 @@ import Chat from './component/Body component/Chat';
 import Time from './Time'
 import Alluser from './component/Body component/Allusers';
 import Cloud from './component/Body component/Cloud';
+
+// import Footer from "./component/common/footer/Footer"
+// import Head from "./component/common/header/Head"
+// import Header from "./component/common/header/Header"
+import Home from "./component/home/Home"
+import About from "./component/about/About"
+import CourseHome from "./component/allcourses/CourseHome"
+import Team from "./component/team/Team"
+import Pricing from "./component/pricing/Pricing"
+import Blog from "./component/blog/Blog"
+import Contact from "./component/contact/Contact"
+
 // import { useRef } from 'react';
 
 
@@ -81,6 +93,11 @@ const App = () => {
   return (
     <>
 
+{/* <Head />
+      <div className="sticky-top bg-warning">
+        <Header />
+      </div> */}
+
       <Routes>
         {/* <Route path='/Nav' element={<Nav />} /> */}
         <Route path='/Increase' element={<div>
@@ -110,7 +127,7 @@ const App = () => {
         <Route path='/users' element={<Alluser />} />
         <Route path='/class' element={<Class title="nonso" />} />
         <Route path='/About' element={<Something />} />
-        <Route path='/Dashboard' element={token ? <Fecth className='btn btn-info' />
+        <Route path='/student/Dashboard' element={token ? <Fecth className='btn btn-info' />
           : <Navigate to="/student/Login" />} />
         <Route path='/Bob' element={<Button />} />
         <Route path='/cloud' element={<Cloud />} />
@@ -128,8 +145,21 @@ const App = () => {
         <Route path='More' element={< Butotons name="Infos" color="btn btn-primary" sayHellos={sayHelloss} />} />
         <Route path='/student/Signup' element={<Formikform />} />
         <Route path='/Time' element={<Time />} />
+        <Route exact path='/' element={<Home />} />
+        <Route exact path='/student/home' element={<Home />} />
+        <Route exact path='/student/about' element={<About />} />
+        <Route exact path='/student/courses' element={<CourseHome />} />
+        <Route exact path='/student/team' element={<Team />} />
+        <Route exact path='/student/pricing' element={<Pricing />} />
+        <Route exact path='/student/journal' element={<Blog />} />
+        <Route exact path='/student/contact' element={<Contact />} />
+
+
+
         <Route path='*' element={<Notfound />} />
       </Routes>
+
+      {/* <Footer /> */}
 
       {/* < Butotons name="Edite" color="btn btn-danger" sayHellos={sayHellos}/>
       < Butotons name="Delet" color="btn btn-warning" sayHellos={sayHellos} />

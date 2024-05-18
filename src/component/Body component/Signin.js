@@ -32,7 +32,7 @@ function Signin() {
                     localStorage.token = response.data.token
                     localStorage.firstname = response.data.firstname
                     localStorage.setItem('firstname', response.data.firstname);
-                    navigate("/dashboard")
+                    navigate("/student/dashboard")
                 }
                 
 

@@ -10,6 +10,8 @@ import 'bootstrap/dist/js/bootstrap.js';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import reportWebVitals from './reportWebVitals';
 import 'animate.css';
+import '../node_modules/font-awesome/css/font-awesome.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 // import Something from './Something';
 // import Button from './Button';
 import { BrowserRouter } from "react-router-dom";
