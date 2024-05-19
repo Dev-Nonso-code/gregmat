@@ -15,7 +15,7 @@ const Start = ()=>{
         <h1 style={{fontsize: "50px"}}> Thiss is new page</h1>
         <h1 style={myStyle}> Thiss is new page</h1>
         <button className='mybtn'>click me</button>
-        {/* <table class="table">
+         <table class="table">
   <thead>
     <tr>
       <th scope="col">#</th>
@@ -43,7 +43,7 @@ const Start = ()=>{
       <td>@twitter</td>
     </tr>
   </tbody>
-</table> */}
+</table> 
         </>
     )
 }
