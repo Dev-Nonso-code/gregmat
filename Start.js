@@ -12,7 +12,7 @@ const Start = ()=>{
     <>
     <Nav />
     <Button />
-        <h1 style={{fontsize: "50px"}}> Thiss is new page</h1>
+        <h1 style={{fontsize: "50px"}}> This is new page</h1>
         <h1 style={myStyle}> Thiss is new page</h1>
         <button className='mybtn'>click me</button>
         {/* <table class="table">
