@@ -44,7 +44,7 @@ const Fecth = () => {
 
 
 
-  // const endpoint = "https://jsonplaceholder.typicode.com/users"
+  // const endpoint4 = "https://public-api.solscan.io/"
 
 
   const [data, setdata] = useState([])

@@ -14,7 +14,7 @@ const Formikform = () => {
   const [message, setmessage] = useState("");
   const [isloading, setisloading] = useState(false);
 
-  const endpoint = "http://localhost:8080/student/register";
+  const endpoint = "http://localhost:5100/log/signup";
   let navigate = useNavigate();
   const formik = useFormik({
     initialValues: {
@@ -39,7 +39,7 @@ const Formikform = () => {
           console.log(Response.data);
           console.log(Response.data.message);
           setisloading(true);
-          navigate("/dashboard");
+          navigate("/student/Dashboard");
         })
         .catch((errors) => {
           // const value = (Response.data)

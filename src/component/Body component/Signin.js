@@ -10,12 +10,13 @@ function Signin() {
     const [email, setemail] = useState("email");
     const [password, setpassword] = useState("password");
     const [message, setmessage] = useState("");
+    const [m, setM] = useState("");
 
     const values = {
         email: email,
         password: password,
     }
-    const endpoint = "http://localhost:8080/student/login";
+    const endpoint = "http://localhost:5100/log/signin";
     let navigate = useNavigate()
 
     const Login = (e) => {
@@ -28,6 +29,7 @@ function Signin() {
                 alert("Login went throung")
                 alert(response.data.message);
                 setmessage(response.data.message)
+                setM(response.data.email)
                 if (response.data.status) {
                     localStorage.token = response.data.token
                     localStorage.firstname = response.data.firstname
@@ -50,7 +52,7 @@ function Signin() {
             } else {
             console.log(message);
         }
-
+console.log(m);
 
     };
 

@@ -39,6 +39,7 @@ import Team from "./component/team/Team"
 import Pricing from "./component/pricing/Pricing"
 import Blog from "./component/blog/Blog"
 import Contact from "./component/contact/Contact"
+import Apik from './component/Body component/Apik';
 
 // import { useRef } from 'react';
 
@@ -123,6 +124,7 @@ const App = () => {
         <Route path='/Home' element={<Navigate to="/" />} />
         <Route path='/DashBord' element={<Start />} />
         <Route path='/Dash' element={<Post />} />
+        <Route path='/Desk' element={<Apik />} />
         <Route path='/student/Login' element={<Signin />} />
         <Route path='/users' element={<Alluser />} />
         <Route path='/class' element={<Class title="nonso" />} />
