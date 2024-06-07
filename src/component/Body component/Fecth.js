@@ -13,7 +13,7 @@ const Fecth = () => {
   var firstname = localStorage.firstname
   const endpoint2 = "https://api.github.com/users"
   // const endpoint22 = "http://localhost:5100/log/signup"
-  const endpoint3 = "http://localhost:8080/student/verify"
+  const endpoint3 = "http://localhost:5100/log/dashboard"
   const [isloading, setisloasding] = useState(false)
 
   useEffect(() => {
@@ -23,29 +23,29 @@ const Fecth = () => {
   },)
 
   useEffect(() => {
-     
+
     axios.get(endpoint3, {
       headers: {
         "Authorization": `Bearer ${token}`,
         "Content-Type": "application/json",
         "Accept": "application/json"
-      }  
+      }
     })
       .then((res) => {
         console.log(res);
-      }).catch((err)=>{
+      }).catch((err) => {
         if (err) {
           localStorage.removeItem("token")
           navigate("/student/login")
           console.log(err);
-        } 
+        }
       })
-  },[navigate, token])
+  }, [navigate, token])
 
- 
+
 
   // const endpoint = "https://jsonplaceholder.typicode.com/users"
-  
+
 
   const [data, setdata] = useState([])
   const getData = () => {
@@ -83,10 +83,10 @@ const Fecth = () => {
               <h1>{item.login + 1}</h1>
               {/* <h1>{data.message}</h1> */}
               <h1>{item.site_admin}</h1>
-               <img src={item.avatar_url} alt="" />
+              <img src={item.avatar_url} alt="" />
               <div>{item.subscriptions_url}</div>
               <div>{item.organizations_url}</div>
-              <div>{item.following_url}</div> 
+              <div>{item.following_url}</div>
               {/* <img src={item.subscriptions_url} alt="" /> */}
               {/* <h1>{item.subscriptions_url}</h1> */}
 
